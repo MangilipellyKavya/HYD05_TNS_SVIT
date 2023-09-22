@@ -8,7 +8,7 @@ public class WriteToFile {
 	  {
 			try {
 				
-			      FileWriter myWriter = new FileWriter("file.txt");
+			      FileWriter myWriter = new FileWriter("task.txt");
 			      myWriter.write("This is our First Task");
 			      myWriter.close();
 			      System.out.println("Successfully wrote to the file.");
