@@ -8,7 +8,7 @@ public class ReadFile {
 	public static void main(String[] args) {
 			try {
 				
-			      File myObj = new File("file.txt");
+			      File myObj = new File("task.txt");
 			      Scanner myReader = new Scanner(myObj);
 			      while (myReader.hasNextLine()) {
 			        String data = myReader.nextLine();
